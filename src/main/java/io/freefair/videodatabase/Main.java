@@ -1,26 +1,21 @@
 package io.freefair.videodatabase;
 
-import javafx.application.Application;
-import javafx.scene.Parent;
+import io.freefair.javafxdi.Application;
 import javafx.scene.Scene;
-import javafx.stage.Stage;
 
 public class Main extends Application {
 	public static void main(String[] args) {
-		launch(args);
+		run("VideoDatabase", "main.fxml", args);
 	}
 
 	@Override
-	public void start(Stage stage) throws Exception {
-		Parent rootNode = JavaFXHelper.loadFile("main.fxml");
+	protected void initParams() {
+		setHeight(350);
+		setWidth(400);
+	}
 
-		Scene scene = new Scene(rootNode, 400, 200);
+	@Override
+	protected void initScene(Scene scene) {
 		scene.getStylesheets().add("styles/styles.css");
-
-		stage.setTitle("Video Database");
-		stage.setMinHeight(200);
-		stage.setMinWidth(400);
-		stage.setScene(scene);
-		stage.show();
 	}
 }

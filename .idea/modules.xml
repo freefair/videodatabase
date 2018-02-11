@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlexBoxFX/FlexBoxFX.iml" filepath="$PROJECT_DIR$/.idea/modules/FlexBoxFX/FlexBoxFX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javafx-di/javafx-di.iml" filepath="$PROJECT_DIR$/.idea/modules/javafx-di/javafx-di.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/videodatabase.iml" filepath="$PROJECT_DIR$/.idea/modules/videodatabase.iml" />
     </modules>
   </component>

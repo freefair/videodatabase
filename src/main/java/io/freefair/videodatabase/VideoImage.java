@@ -1,8 +1,8 @@
 package io.freefair.videodatabase;
 
+import io.freefair.javafxdi.JavaFXHelper;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.Background;
-import javafx.scene.layout.BackgroundFill;
+import org.springframework.stereotype.Controller;
 
 public class VideoImage extends AnchorPane {
 	public VideoImage() {

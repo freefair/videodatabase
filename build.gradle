@@ -29,6 +29,7 @@ dependencies {
 	compile 'de.jensd:fontawesomefx:8.9'
 	compile 'net.bramp.ffmpeg:ffmpeg:0.6.2'
 	compile project('FlexBoxFX')
+	compile project('javafx-di')
 	compileOnly 'org.projectlombok:lombok:1.16.20'
 }
 
