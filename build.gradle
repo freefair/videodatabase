@@ -28,6 +28,7 @@ dependencies {
 	testCompile group: 'junit', name: 'junit', version: '4.12'
 	compile 'de.jensd:fontawesomefx:8.9'
 	compile 'net.bramp.ffmpeg:ffmpeg:0.6.2'
+	compile project('FlexBoxFX')
 	compileOnly 'org.projectlombok:lombok:1.16.20'
 }
 
@@ -37,4 +38,5 @@ jfx {
 	css2bin = false
 	vendor = "FreeFair"
 	appName = "Video Database"
+	//runJavaParameter = '-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005'
 }

@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.SplitPane?>
-<?import javafx.scene.control.TreeView?>
-<?import javafx.scene.layout.AnchorPane?>
-
-<?import javafx.scene.control.Button?>
 <?import com.onexip.flexboxfx.FlexBox?>
-<?import io.freefair.videodatabase.VideoImage?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 <SplitPane dividerPositions="0.3" maxHeight="Infinity" maxWidth="Infinity"
            prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.121"
            xmlns:fx="http://javafx.com/fxml/1" fx:controller="io.freefair.videodatabase.MainViewController" fx:id="splitPane">
@@ -18,9 +14,9 @@
 			</children>
 		</AnchorPane>
 		<FlexBox fx:id="flexBox" horizontalSpace="20" verticalSpace="20" styleClass="flex-pane" direction="ROW">
-			<Button text="Test 1" styleClass="item,item1" FlexBox.order="2" fx:id="btn1"/>
-			<Button text="Test 2" styleClass="item,item2" FlexBox.order="1" fx:id="btn2"/>
-			<Button text="Test 3" styleClass="item,item3" FlexBox.order="3" fx:id="btn3"/>
+			<Button text="Test 1" styleClass="item,item1" FlexBox.order="2" FlexBox.grow="2" fx:id="btn1"/>
+			<Button text="Test 2" styleClass="item,item2" FlexBox.order="1" FlexBox.grow="1" fx:id="btn2"/>
+			<Button text="Test 3" styleClass="item,item3" FlexBox.order="3" FlexBox.grow="3" fx:id="btn3"/>
 		</FlexBox>
 	</items>
 </SplitPane>

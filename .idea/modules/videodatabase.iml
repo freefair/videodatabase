@@ -15,9 +15,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="FlexBoxFX" scope="PROVIDED" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: de.jensd:fontawesomefx:8.9" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: net.bramp.ffmpeg:ffmpeg:0.6.2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.onexip:FlexBoxFX:0.1.5.3-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.projectlombok:lombok:1.16.20" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.guava:guava:20.0" level="project" />
@@ -26,9 +26,9 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.gson:gson:2.8.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.modelmapper:modelmapper:0.7.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.commons:commons-collections4:4.1" level="project" />
+    <orderEntry type="module" module-name="FlexBoxFX" scope="RUNTIME" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: de.jensd:fontawesomefx:8.9" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.bramp.ffmpeg:ffmpeg:0.6.2" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.onexip:FlexBoxFX:0.1.5.3-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.guava:guava:20.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: commons-io:commons-io:2.5" level="project" />
@@ -36,9 +36,9 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.code.gson:gson:2.8.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.modelmapper:modelmapper:0.7.7" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.commons:commons-collections4:4.1" level="project" />
+    <orderEntry type="module" module-name="FlexBoxFX" scope="TEST" />
     <orderEntry type="library" scope="TEST" name="Gradle: de.jensd:fontawesomefx:8.9" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: net.bramp.ffmpeg:ffmpeg:0.6.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.onexip:FlexBoxFX:0.1.5.3-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.guava:guava:20.0" level="project" />
