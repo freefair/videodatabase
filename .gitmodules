@@ -1,3 +1,6 @@
 [submodule "FlexBoxFX"]
 	path = FlexBoxFX
 	url = https://github.com/freefair/FlexBoxFX
+[submodule "javafx-di"]
+	path = javafx-di
+	url = ./javafx-di
