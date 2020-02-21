@@ -4,3 +4,12 @@ VideoImage {
 	-fx-min-height: 150px;
 	-fx-background-color: pink;
 }
+
+.titleText {
+	-fx-font-style: bold;
+	-fx-font-size: 1.2em;
+}
+
+.descriptionText {
+	-fx-font-size: 0.8em;
+}

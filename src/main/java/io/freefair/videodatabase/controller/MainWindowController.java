@@ -1,4 +1,4 @@
-package io.freefair.videodatabase;
+package io.freefair.videodatabase.controller;
 
 import io.freefair.javafxdi.JavaFXHelper;
 import javafx.event.ActionEvent;

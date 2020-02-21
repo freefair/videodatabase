@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxWidth="1.7976931348623157E308" type="javafx.scene.layout.VBox"
+         xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+	<Label fx:id="titleLabel" styleClass="titleText"/>
+	<Label fx:id="descriptionLabel" styleClass="descriptionText"/>
+	<HBox fillHeight="false" VBox.vgrow="ALWAYS">
+		<ProgressBar fx:id="progressBar" maxHeight="10" maxWidth="Infinity" minHeight="10" AnchorPane.bottomAnchor="0"
+		             AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" HBox.hgrow="ALWAYS"/>
+	</HBox>
+</fx:root>

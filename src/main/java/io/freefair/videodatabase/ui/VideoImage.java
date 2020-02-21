@@ -1,4 +1,4 @@
-package io.freefair.videodatabase;
+package io.freefair.videodatabase.ui;
 
 import io.freefair.javafxdi.JavaFXHelper;
 import javafx.scene.layout.AnchorPane;

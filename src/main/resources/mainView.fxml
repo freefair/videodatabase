@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.onexip.flexboxfx.FlexBox?>
+<?import com.onexip.flexboxfx.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<?import io.freefair.videodatabase.VideoImage?>
-<SplitPane dividerPositions="0.3" maxHeight="Infinity" maxWidth="Infinity"
-           prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.121"
-           xmlns:fx="http://javafx.com/fxml/1" fx:controller="io.freefair.videodatabase.MainViewController" fx:id="splitPane">
+<?import io.freefair.videodatabase.ui.ActionView?>
+
+<SplitPane fx:id="splitPane" dividerPositions="0.3, 0.5" maxHeight="Infinity" maxWidth="Infinity" prefHeight="400.0"
+           prefWidth="400.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="io.freefair.videodatabase.controller.MainViewController">
 	<items>
 		<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
 			<children>
-				<TreeView prefHeight="398.0" prefWidth="170.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
-				          AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0"/>
+				<BorderPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+				            AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" prefHeight="398.0"
+				            prefWidth="170.0">
+					<center>
+						<TreeView />
+					</center>
+					<bottom>
+						<ActionView fx:id="actionView" maxWidth="Infinity"/>
+					</bottom>
+				</BorderPane>
 			</children>
 		</AnchorPane>
-		<FlexBox fx:id="flexBox" horizontalSpace="20" verticalSpace="20" styleClass="flex-pane" direction="ROW">
+		<FlexBox fx:id="flexBox" direction="ROW" horizontalSpace="20" styleClass="flex-pane" verticalSpace="20">
+			<Button onAction="#doAction" />
 		</FlexBox>
 	</items>
 </SplitPane>
