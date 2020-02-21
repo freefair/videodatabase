@@ -1,19 +1,18 @@
 buildscript {
-	dependencies {
-		classpath group: 'de.dynamicfiles.projects.gradle.plugins', name: 'javafx-gradle-plugin', version: '8.8.2'
-	}
-
 	repositories {
 		mavenLocal()
 		mavenCentral()
 	}
 }
 
+plugins {
+	id 'java'
+	id 'application'
+	id 'org.openjfx.javafxplugin' version '0.0.8'
+}
+
 group 'io.freefair'
 version '1.0-SNAPSHOT'
-
-apply plugin: 'java'
-apply plugin: 'javafx-gradle-plugin'
 
 sourceCompatibility = 1.8
 
@@ -24,16 +23,26 @@ repositories {
 	}
 }
 
-dependencies {
-	testCompile group: 'junit', name: 'junit', version: '4.12'
-	compile 'de.jensd:fontawesomefx:8.9'
-	compile 'net.bramp.ffmpeg:ffmpeg:0.6.2'
-	compile project('FlexBoxFX')
-	compile project('javafx-di')
-	compileOnly 'org.projectlombok:lombok:1.16.20'
+application {
+	mainClassName = 'io.freefair.videodatabase.Main'
 }
 
-jfx {
+dependencies {
+	implementation 'de.jensd:fontawesomefx:8.9'
+	implementation 'net.bramp.ffmpeg:ffmpeg:0.6.2'
+	implementation project(':FlexBoxFX')
+	implementation project(path: ':javafx-di', configuration: 'default')
+	compileOnly 'org.projectlombok:lombok:1.16.20'
+	testImplementation group: 'junit', name: 'junit', version: '4.12'
+}
+
+javafx {
+	sdk = "/Library/Java/JavaVirtualMachines/adoptopenjdk-13.jdk/Contents/Home"
+	version = "13"
+	modules = [ 'javafx.controls', 'javafx.base', 'javafx.graphics', 'javafx.fxml' ]
+}
+
+/*jfx {
 	verbose = true
 	mainClass = "io.freefair.videodatabase.Main"
 	css2bin = false
@@ -41,3 +50,4 @@ jfx {
 	appName = "Video Database"
 	//runJavaParameter = '-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005'
 }
+ */

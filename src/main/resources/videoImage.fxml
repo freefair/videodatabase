@@ -7,5 +7,5 @@
 <?import javafx.scene.layout.*?>
 
 <fx:root type="javafx.scene.layout.AnchorPane" xmlns:fx="http://javafx.com/fxml">
-	<Label text="Test Value"/>
+	<Label text="Test Value" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0"/>
 </fx:root>

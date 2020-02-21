@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlexBoxFX/FlexBoxFX.iml" filepath="$PROJECT_DIR$/.idea/modules/FlexBoxFX/FlexBoxFX.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javafx-di/javafx-di.iml" filepath="$PROJECT_DIR$/.idea/modules/javafx-di/javafx-di.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/videodatabase.iml" filepath="$PROJECT_DIR$/.idea/modules/videodatabase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlexBoxFX/videodatabase.FlexBoxFX.iml" filepath="$PROJECT_DIR$/.idea/modules/FlexBoxFX/videodatabase.FlexBoxFX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javafx-di/videodatabase.javafx-di.iml" filepath="$PROJECT_DIR$/.idea/modules/javafx-di/videodatabase.javafx-di.iml" />
     </modules>
   </component>
 </project>

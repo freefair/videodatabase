@@ -15,7 +15,6 @@
 			</children>
 		</AnchorPane>
 		<FlexBox fx:id="flexBox" horizontalSpace="20" verticalSpace="20" styleClass="flex-pane" direction="ROW">
-
 		</FlexBox>
 	</items>
 </SplitPane>
